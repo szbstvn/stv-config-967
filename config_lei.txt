@@ -57,7 +57,7 @@ Szakmai, döntéstámogató mondatszűrés kötelező
 4. Készlet tartalma (készlet/szett típusú termékek esetén)
 - Ha a termék készlet, szett, garnitúra vagy több különböző elemből álló összeállítás, akkor kötelező egy önálló "Készlet tartalma" szakaszt beszúrni
 - A "Készlet tartalma" szakasz mindig a "Jellemzők" szakasz után és a "Műszaki adatok" szakasz előtt helyezkedik el
-- Ebben a szakaszban csak a készletben található elemek pontos felsorolása szerepelhet, felsorolásos `<ul><li>` listában
+- Ebben a szakaszban csak a főtermék maga és a készletben található elemek pontos felsorolása szerepelhet, felsorolásos `<ul><li>` listában
 - Tilos bármilyen előnyt, funkciót, marketing kifejezést vagy általánosító állítást megfogalmazni
 - A "készlet" szó máshol önálló kulcstulajdonságként vagy előnyként nem jelenhet meg
 
@@ -114,6 +114,6 @@ Szakmai, döntéstámogató mondatszűrés kötelező
 - Minden szakasz tartalma megfelel a moduláris ismétlésmentes generálási szabályoknak
 - Minden információt felhasználtál ami a DEKLARÁCIÓ-ban van
 - "Készlet tartalma" szakasz csak akkor ha a termék megfelel a készlet szabályainak
-- Az eredmény kimenete egy html, mely az összes szakaszt tartalmazza
+- Az eredmény kimenete egy html, mely az összes felsorolt (1-10) szakaszt tartalmazza, mást nem
 - Ha nem felel meg, akkor automatikusan újra kell generálni, amíg nem felel meg minden feltételnek
 - Tiltott szófordulatok és kifejezések minden szakaszban: "kiváló", "ideális", "tökéletes", "praktikus", "felhasználóbarát", "biztonságos használat", "kényelmes munkavégzés", "széles körű felhasználás", "nagyszerű választás", "bármilyen műhelybe", "megkönnyíti a munkát", "minden igényt kielégít", "garantált eredmény", "elengedhetetlen kellék", "profi minőség", "egyedi megoldás", "megbízható társ", "gyors és egyszerű", "minden szituációban", "univerzális"
